@@ -95,6 +95,7 @@ td, th {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 .white{
@@ -102,6 +103,8 @@ h3 {
   margin-top: -10px;
   margin-bottom: 30px;
 }
+
+
 
 ul.list-group:after {
   clear: both;
@@ -121,6 +124,9 @@ ul.list-group:after {
 
 }
 
+.thumbnail .space{
+  margin-bottom: 30px;
+}
 .thumbnail p{
   font-size:16px;
 }
@@ -138,7 +144,7 @@ box-shadow: rgba(0, 0, 0, 0.74902) 10px 10px 50px -1px;
   position: relative;
   text-align: center;
   cursor: default;
-  background: #42b078;
+  background: rgb(216, 238, 238);
 }
 
 .thumbnail .hovereffect .overlay {
