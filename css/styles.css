@@ -51,6 +51,11 @@ body{
   background-size: cover;
 }
 
+container .centerit{
+text-align: center;
+}
+
+
 
 
 /*.nav-custom .navbar-nav>li>a:hover{
@@ -58,6 +63,49 @@ background-color: rgba(218, 8, 39, 0.65)
 }
 */
 
+
+.design a:link {
+    color: white;
+}
+
+/* visited link */
+ .design a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.design a:hover {
+    color: rgb(244, 209, 85);
+}
+
+/* selected link */
+ .design a:active {
+    color: rgb(244, 209, 85);
+}
+
+.icon-format{
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.icon-format a:link {
+    color: white;
+}
+
+/* visited link */
+ .icon-format a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.icon-format a:hover {
+    color: rgb(244, 209, 85);
+}
+
+/* selected link */
+ .icon-format a:active {
+    color: rgb(244, 209, 85);
+}
 
 .text-white{
   color:#f6f4f1;
@@ -97,6 +145,15 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 
 }
+
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
 
 .white{
   color: white;
@@ -222,4 +279,9 @@ box-shadow: rgba(0, 0, 0, 0.74902) 10px 10px 50px -1px;
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+
+.leading{
+  margin-top: -10px;
 }
